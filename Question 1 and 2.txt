@@ -1,0 +1,48 @@
+Problem Statement :
+
+Digital Savings API service
+For a new feature in the app and website a new backend service needs to be created. The mobile
+appie app and the website are going to use this service and can show the amount of stamps a user
+gathered. Users can save stamps to get discounts on themepark(Efteling) tickets, or tableware.
+Digital Savings Service
+URL + userID ---> returns stamps
+Requirements:
+- Amount of stamps can be retrieved
+- Number of full cards can be retrieved
+- A userID is needed to get the information
+- The service always returns the promotion
+
+
+
+
+
+Question 1:
+
+What questions will you have with the requirements above?
+
+
+Response ->
+ 
+  1 : What back-end service is going to be used ? Rest API or Graphql or custom back-end services
+  2 : What is the request and response message format. Sample messages
+  3 : Userid format and number of digits.
+  4 : Logic behind, number of stamps a user has gathered. This is to validate if the data returned by the service is correct.
+  5 : What are full cards and what is the use of it?
+  6 : What data does the promotion section hold? like item name , discount. images.
+
+
+
+
+ Question 2:
+
+ Can you specify the test efforts that you want to perform during the sprint?
+
+Below story cards are two be performed as part of the two week sprint
+
+ 1: Functional Test Design for the new feature. End -end test case with front-end and back-end
+ 2: Test Data Preparation . Here, prepare list of users with known values of stamps and their user ids.
+ 3: Manual Test Execution on select platforms and devices ( ios- iphone 11, android - Samsung s8, website - chrome on macbook and windows)
+ 4: Automated Test Design and Development for the new feature and add it regression suite.
+ 5: Regression Test Execution on multiple platforms. (Full suite of automation tests testing existing features as well)
+ 6: Bug reporting and re-tests.
+ 7: Feature Demo
